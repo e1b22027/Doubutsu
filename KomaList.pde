@@ -16,7 +16,7 @@ class KomaList {
   void draw() {
     for (AbstractKoma k : komaArray) {
       k.draw();
-    }}
+    }
 }
   AbstractKoma getSelectedKoma() {
     for (AbstractKoma k : komaArray) {
@@ -36,3 +36,4 @@ class KomaList {
     }
     return null;
   }
+}
